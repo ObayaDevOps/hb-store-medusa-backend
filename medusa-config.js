@@ -77,7 +77,14 @@ const plugins = [
             ],
           },
           transformer: (product) => ({ 
-            objectID: product.id, 
+            objectID: product.id,
+            title: product.title,
+            description: product.description,
+            variants: product.variants,
+            collectionTitle: product.collection_title,
+            collectionHandle: product.collection_handle,
+            thumbnail: product.thumbnail,
+
             // other attributes...
           }),
         },
