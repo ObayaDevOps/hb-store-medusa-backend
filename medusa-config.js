@@ -83,6 +83,7 @@ const plugins = [
             variants: product.variants,
             collectionTitle: product.collection_title,
             thumbnail: product.thumbnail,
+            images: product.images,
             handle: product.handle,
 
             // other attributes...
@@ -94,7 +95,7 @@ const plugins = [
 ];
 
 const modules = {
-  /*eventBus: {
+  eventBus: {
     resolve: "@medusajs/event-bus-redis",
     options: {
       redisUrl: REDIS_URL
@@ -105,7 +106,7 @@ const modules = {
     options: {
       redisUrl: REDIS_URL
     }
-  },*/
+  },
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
