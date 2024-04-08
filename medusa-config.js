@@ -82,8 +82,8 @@ const plugins = [
             description: product.description,
             variants: product.variants,
             collectionTitle: product.collection_title,
-            collectionHandle: product.collection_handle,
             thumbnail: product.thumbnail,
+            handle: product.handle,
 
             // other attributes...
           }),
